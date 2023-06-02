@@ -79,7 +79,7 @@ export default function Dashboard() {
             fontSize: "35px"
           }}
         >
-          Web Chat Pingo!
+          DCN CHAT APP!
         </h1>
       </header>
       <main>
@@ -131,10 +131,11 @@ export default function Dashboard() {
               }}
               className="container"
             >
-              {users.map((user) => {
+              {users.map((user,index) => {
                 return (
                   <Link
                     to={{
+                      key:{index},
                       pathname: `/user/${user.name}`,
                       state: user,
                       isVisible: isVisible

@@ -64,6 +64,7 @@ export default function SelectedUser() {
     setText("");
     setImg("");
   };
+  console.log(addDocMsg);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -141,7 +142,7 @@ export default function SelectedUser() {
             fontSize: "35px"
           }}
         >
-          Web Chat Pingo!
+          DCN CHAT APP!
         </h1>
       </header>
       <main>

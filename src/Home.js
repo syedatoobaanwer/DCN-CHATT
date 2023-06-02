@@ -22,7 +22,6 @@ const Home = () => {
     e.preventDefault();
 
     setData({ ...data, error: null, loading: true });
-    console.log(data);
     if (!data.email || !data.password) {
       setData({ ...data, error: "All fields are required!" });
       return;
@@ -67,7 +66,7 @@ const Home = () => {
             fontSize: "35px"
           }}
         >
-          Web Chat Pingo!
+         DCN CHAT APP!
         </h1>
       </header>
 

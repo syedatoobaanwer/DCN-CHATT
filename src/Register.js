@@ -83,7 +83,7 @@ const Register = () => {
             fontSize: "35px"
           }}
         >
-          Web Chat Pingo!
+          DCN CHAT APP
         </h1>
       </header>
 

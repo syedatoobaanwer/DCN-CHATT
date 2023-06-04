@@ -7,7 +7,7 @@ html {
 }
 
 .myHeader {
-  background: #502a75;
+  background: #a55e35;
   color: #fff;
   padding: 20px 20px 20px;
   height: 190px;
@@ -43,7 +43,7 @@ main h3 {
 main h3 span {
   float: right;
   font-size: 16px;
-  color: #502a75;
+  color: #a55e35;
   padding-top: 30px;
 }
 
@@ -70,7 +70,7 @@ input {
   height: 40px;
   width: 80px;
   margin: 15px;
-  background-color: #502a75;
+  background-color: #a55e35;
   color: white;
   border-radius: 5px;
   cursor: pointer;
